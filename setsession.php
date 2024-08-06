@@ -1,7 +1,7 @@
 <?php
 $context = json_decode($_POST['context'] ?: "[]") ?: [];
 $postData = [
-    "model" => "gpt-3.5-turbo",
+    "model" => "gpt-4o-mini",
     "temperature" => 0,
     "stream" => true,
     "messages" => [],
